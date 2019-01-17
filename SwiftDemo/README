@@ -1,0 +1,39 @@
+一、不能理解 swift 的协议方法
+    1、“AOP” 面向切面编程，本来是为了，让和业务无关的代码，分离。
+    2、”协议“应该是，一旦定好，任何实例按照协议的扩展来实现特定的方法都可以的
+    swift 多出一个扩展协议，可以用这种方法来实现 AOP 切面编程，并且可以 定义 指定的 不用的 实例 实现不同的方法，应该属于比较 适配类型的高端操作了吧。
+    3、更具以上两点，网上的 swift 实现的 面向切面编程不能够，实现完全的代码分离
+二、问题： “extension AOPOtherProtocol where Self: AOPCustomOtherTest” 的具体使用场景是什么？
+    答：1、实体中利用协议对代码进行分离。-- 但是，实例也可以有 extension 同样可以解决这样的问题
+        2、希望能找到其他使用场景
+
+
+代码如下
+====================================
+
+protocol AOPOtherProtocol {
+    
+}
+
+extension AOPOtherProtocol {
+    
+    private func start(funcName: String) {
+        // 内容中判定是哪个类的内容
+        if Self.self == AOPCustomTest.self {
+            print("test")
+        }else{
+            print("notest")
+        }
+        print(#function)
+    }
+    private func end () {
+        print(#function)
+    }
+}
+
+ {
+    func statisticAction(funcName: String) {
+        print(#function)
+    }
+}
+====================================

@@ -1,0 +1,32 @@
+PODS:
+  - EasyFoundation (1.0.0):
+    - EasySequence (~> 1.3.0)
+    - EasyTuple (~> 1.1.0)
+  - EasyReact (2.2.1):
+    - EasyFoundation (~> 1.0.0)
+  - EasySequence (1.3.0)
+  - EasyTuple (1.1.2)
+  - MJExtension (3.0.15.1)
+
+DEPENDENCIES:
+  - EasyReact (~> 2.2.1)
+  - MJExtension (~> 3.0.15.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - EasyFoundation
+    - EasyReact
+    - EasySequence
+    - EasyTuple
+    - MJExtension
+
+SPEC CHECKSUMS:
+  EasyFoundation: a4bb86dd4ba01cb720f5320c314c5628ee237acd
+  EasyReact: c80e20041c83f51307405277b93df386a1ed8728
+  EasySequence: 1db9bb7b915052d3589d79c30ece1f0e160af550
+  EasyTuple: a6a068ab3aa47e899a0c9f9ee23ddb394542ea9e
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+
+PODFILE CHECKSUM: accbde1599f8bdfe29fbb63c05106755d71fa400
+
+COCOAPODS: 1.5.3

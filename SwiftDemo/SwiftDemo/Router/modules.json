@@ -1,0 +1,13 @@
+
+[
+ {"moduleID":10001,
+ "targetVC":"LBaseController",
+ "params":{"name":"alexluan","address":"shanghai"}
+ "des":"vc base basevc://yzwwjapp:10001?name=1&age=2"
+ },
+ {"moduleID":10002,
+     "targetVC":"RouteFirstController",
+     "des":"vc base http://SwiftDemo:10002?name=1&age=2"
+ }
+ ]
+

@@ -1,0 +1,32 @@
+{
+    "AHomeController":{
+        "classname":"AHomeController",
+        "title":"homecontroller",
+        "params":{
+            "str0":"",
+            "str1":"",
+            "str2":""
+        },
+        "des":""
+    },
+    "AMainTabController":{
+        "classname":"AMainTabController",
+        "title":"AMainTabController",
+        "params":{
+            "str0":"",
+            "str1":"",
+            "str2":""
+        },
+        "des":""
+    },
+    "MainLoginController":{
+        "classname":"MainLoginController",
+        "title":"MainLoginController",
+        "params":{
+            "str0":"",
+            "str1":"",
+            "str2":""
+        },
+        "des":""
+    }
+}

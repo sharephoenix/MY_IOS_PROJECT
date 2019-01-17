@@ -1,0 +1,25 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+inhibit_all_warnings!
+target 'SwiftDemo' do
+    pod 'SnapKit', '~> 4.2.0'
+    pod 'PinLayout', '~> 1.8.6'
+    
+    pod 'RxSwift',    '~> 4.0'
+    pod 'RxCocoa',    '~> 4.0'
+    pod 'RxAtomic', '~> 4.4.0'
+    
+    pod 'ReactiveSwift'
+    pod 'ReactiveCocoa'
+    
+    pod 'Eureka'
+    pod 'pop', '~> 1.0.12'
+    pod 'Kingfisher', '~> 4.10.1'
+    pod 'Aspects'
+    
+#    pod 'Router', :path => 'https://github.com/sharephoenix/SwiftRouter.git'
+
+    #    pod 'SPagerView' #轮播图
+#    pod 'WeexSDK'
+end
