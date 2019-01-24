@@ -50,6 +50,15 @@ class MainController: FormViewController {
                     let vc = RXViewCaseController()
                     self?.view.getController()?.show(vc, sender: nil)
                 })}
+            <<< MainEurekaCellRow("WeexVueController") {
+                $0.onChange({ (_) in
+
+                })
+                $0.cell.customValue = "WeexVueController Case"
+                $0.onCellSelection({ [weak self] (_, _) in
+                    let vc = WeexVueController()
+                    self?.view.getController()?.show(vc, sender: nil)
+                })}
             <<< MainEurekaCellRow("TestController") {
                 $0.onChange({ (_) in
 

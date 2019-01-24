@@ -27,6 +27,7 @@
 		184DBAAA21A3B1CB00BDBEBF /* SwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184DBAA921A3B1CB00BDBEBF /* SwiftDemoUITests.swift */; };
 		184DBABA21A4F89100BDBEBF /* EurekaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184DBAB921A4F89100BDBEBF /* EurekaController.swift */; };
 		184DBAC021A5085800BDBEBF /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184DBABF21A5085800BDBEBF /* TestController.swift */; };
+		185FF1A321F1ADCD000DF3C7 /* WeexVueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185FF1A221F1ADCD000DF3C7 /* WeexVueController.swift */; };
 		1881C1EF21BA6B4100B55F28 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881C1EE21BA6B4100B55F28 /* LoginViewModel.swift */; };
 		18839A4821E5C1FC003AD294 /* RXTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18839A4721E5C1FC003AD294 /* RXTableViewController.swift */; };
 		18ADEDDE21D608E000C0C8E4 /* YSPinLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ADEDDC21D608DF00C0C8E4 /* YSPinLayoutView.swift */; };
@@ -101,6 +102,7 @@
 		184DBAAB21A3B1CB00BDBEBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		184DBAB921A4F89100BDBEBF /* EurekaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurekaController.swift; sourceTree = "<group>"; };
 		184DBABF21A5085800BDBEBF /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
+		185FF1A221F1ADCD000DF3C7 /* WeexVueController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeexVueController.swift; sourceTree = "<group>"; };
 		1881C1EE21BA6B4100B55F28 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		18839A4721E5C1FC003AD294 /* RXTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXTableViewController.swift; sourceTree = "<group>"; };
 		18ADEDDC21D608DF00C0C8E4 /* YSPinLayoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSPinLayoutView.swift; sourceTree = "<group>"; };
@@ -249,6 +251,7 @@
 				181FE1BC21EDB321003187B7 /* MainController.swift */,
 				181FE1BE21EDB7A5003187B7 /* ReactiveSwiftController.swift */,
 				181FE1CB21EDF0EE003187B7 /* RXViewCaseController.swift */,
+				185FF1A221F1ADCD000DF3C7 /* WeexVueController.swift */,
 			);
 			path = SwiftDemo;
 			sourceTree = "<group>";
@@ -542,6 +545,7 @@
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/WeexSDK/WeexSDK.framework",
 				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -559,6 +563,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WeexSDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -627,6 +632,7 @@
 				18F9993321AFA70F00800869 /* Helper.swift in Sources */,
 				18E6E71F21A64FF90020E54F /* HotAndColdSignalTest.swift in Sources */,
 				18ADEDE021D6090400C0C8E4 /* PinLayoutController.swift in Sources */,
+				185FF1A321F1ADCD000DF3C7 /* WeexVueController.swift in Sources */,
 				1843A62D21A7C2B70000109C /* AwesomeSearchTableViewController.swift in Sources */,
 				18F9994121AFEF5A00800869 /* PageControlView.swift in Sources */,
 			);
