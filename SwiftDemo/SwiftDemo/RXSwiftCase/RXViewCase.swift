@@ -10,7 +10,6 @@ import UIKit
 import PinLayout
 import RxSwift
 import RxCocoa
-import Result
 
 class RXViewCase: UIView {
 
@@ -40,8 +39,6 @@ class RXViewCase: UIView {
 
     private var pickView: UIPickerView = UIPickerView()
 
-    @objc private var backColor: UIColor = .red
-
     init() {
         super.init(frame: CGRect.zero)
         createUI()
@@ -49,7 +46,6 @@ class RXViewCase: UIView {
     }
 
     private func createUI() {
-        backgroundColor = backColor
         resultLabel.backgroundColor = .groupTableViewBackground
         resultLabel.numberOfLines = 0
         userTextField.backgroundColor = .groupTableViewBackground

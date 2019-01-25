@@ -17,8 +17,7 @@ target 'SwiftDemo' do
     pod 'pop', '~> 1.0.12'
     pod 'Kingfisher', '~> 4.10.1'
     pod 'Aspects'
-    #pod 'SRWebSocket'
-    #pod  'WXDevtool', '0.15.3', :configurations => ['Debug']
+    
 #    pod 'Router', :path => 'https://github.com/sharephoenix/SwiftRouter.git'
 
     #    pod 'SPagerView' #轮播图

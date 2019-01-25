@@ -231,16 +231,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-## WXDevtool
-
-Alibaba-INC copyright
-
-
-## WeexSDK
-
-Alibaba-INC copyright
-
-
 ## pop
 
 BSD License

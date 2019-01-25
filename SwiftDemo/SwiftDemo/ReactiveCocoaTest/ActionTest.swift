@@ -87,6 +87,7 @@ class ActionTest: NSObject {
 
         if let enable = changeEnable {
             changeAction = Action(enabledIf: enable, execute: { (oldPd, newPD) in
+
                 SignalProducer<Bool, NoError> { observer, _ in
                     // 里面可以处理网络请求
                     if oldPd == newPD {
@@ -96,6 +97,7 @@ class ActionTest: NSObject {
                     }
                     observer.sendCompleted() // 必须执行才能接受下次的点击事件，可以避免按钮的重复点击
                 }
+                
             })
 
         }
