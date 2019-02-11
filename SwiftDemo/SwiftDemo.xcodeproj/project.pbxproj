@@ -30,6 +30,7 @@
 		1881C1EF21BA6B4100B55F28 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881C1EE21BA6B4100B55F28 /* LoginViewModel.swift */; };
 		18839A4821E5C1FC003AD294 /* RXTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18839A4721E5C1FC003AD294 /* RXTableViewController.swift */; };
 		18A091CA21FAA8E500C59756 /* ProducerCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A091C921FAA8E500C59756 /* ProducerCase.swift */; };
+		18A091CF21FEA7C000C59756 /* Queue01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A091CE21FEA7C000C59756 /* Queue01.swift */; };
 		18ADEDDE21D608E000C0C8E4 /* YSPinLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ADEDDC21D608DF00C0C8E4 /* YSPinLayoutView.swift */; };
 		18ADEDE021D6090400C0C8E4 /* PinLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ADEDDF21D6090400C0C8E4 /* PinLayoutController.swift */; };
 		18AEFE0821B0F81B006D7A7D /* ReactiveKVOTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AEFE0721B0F81B006D7A7D /* ReactiveKVOTest.swift */; };
@@ -105,6 +106,7 @@
 		1881C1EE21BA6B4100B55F28 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		18839A4721E5C1FC003AD294 /* RXTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXTableViewController.swift; sourceTree = "<group>"; };
 		18A091C921FAA8E500C59756 /* ProducerCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProducerCase.swift; sourceTree = "<group>"; };
+		18A091CE21FEA7C000C59756 /* Queue01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue01.swift; sourceTree = "<group>"; };
 		18ADEDDC21D608DF00C0C8E4 /* YSPinLayoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSPinLayoutView.swift; sourceTree = "<group>"; };
 		18ADEDDF21D6090400C0C8E4 /* PinLayoutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinLayoutController.swift; sourceTree = "<group>"; };
 		18AEFE0721B0F81B006D7A7D /* ReactiveKVOTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveKVOTest.swift; sourceTree = "<group>"; };
@@ -221,6 +223,7 @@
 		184DBA8821A3B1C800BDBEBF /* SwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				18A091CD21FEA7A500C59756 /* Queue */,
 				18E9A2AF21EF121700D22670 /* java */,
 				181FE1C621EDED9F003187B7 /* RXSwiftCase */,
 				181FE1C421EDEB07003187B7 /* CustomSource.bundle */,
@@ -279,6 +282,14 @@
 				1881C1EE21BA6B4100B55F28 /* LoginViewModel.swift */,
 			);
 			path = LoginTest;
+			sourceTree = "<group>";
+		};
+		18A091CD21FEA7A500C59756 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				18A091CE21FEA7C000C59756 /* Queue01.swift */,
+			);
+			path = Queue;
 			sourceTree = "<group>";
 		};
 		18B3A61A21AD13F6001C928D /* Extends */ = {
@@ -628,6 +639,7 @@
 				181FE1BF21EDB7A5003187B7 /* ReactiveSwiftController.swift in Sources */,
 				181FE1CC21EDF0EE003187B7 /* RXViewCaseController.swift in Sources */,
 				D0274C4A21B176E3002E3684 /* MainClass.swift in Sources */,
+				18A091CF21FEA7C000C59756 /* Queue01.swift in Sources */,
 				18F9993321AFA70F00800869 /* Helper.swift in Sources */,
 				18E6E71F21A64FF90020E54F /* HotAndColdSignalTest.swift in Sources */,
 				18ADEDE021D6090400C0C8E4 /* PinLayoutController.swift in Sources */,

@@ -15,15 +15,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        ProducerCase.case1()
+//        ProducerCase.case1()
+        var queue: Queue01? = Queue01()
+        queue?.case0()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 10) {
+            queue = nil
+        }
         #if DEBUG
-        _ = Observable<Int>.interval(1, scheduler: MainScheduler.instance)
-            .subscribe({ count in
-                //MARK:  用于统计失败
-//                                let count = RxSwift.Resources.total
-                let content = "Resource count \(count.element ?? 0)"
-                print("\(content)")
-            })
+//        _ = Observable<Int>.interval(1, scheduler: MainScheduler.instance)
+//            .subscribe({ count in
+//                //MARK:  用于统计失败
+////                                let count = RxSwift.Resources.total
+//                let content = "Resource count \(count.element ?? 0)"
+//                print("\(content)")
+//            })
         #endif
 
         return true
